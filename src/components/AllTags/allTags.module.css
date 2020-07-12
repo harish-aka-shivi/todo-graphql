@@ -1,0 +1,29 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: white;
+    padding: 0.6rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-width: 0.6px;
+    border-radius: 0.3rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 0.3rem;
+    border-width: 1px;
+    padding: 0.6rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    background-color: #64ffda;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.root {
+    width: 98%;
+    background-color: #006064;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.3rem;
+
+}
+
+.root > * + * {
+    margin-left: 0.6rem;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonContainer > * + * {
+    margin-left: 0.3rem;
+}
+
+.input {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0.3rem;
+    color: white;
+    width: 100%;
+}
