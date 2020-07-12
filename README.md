@@ -8,6 +8,7 @@
 ## Improvements to be done
 - Accessibilty
 - Better UI
+- Search feature
 
 ## Testing strategy
 Although tests are not done yet, but some tests that can be written
